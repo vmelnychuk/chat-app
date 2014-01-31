@@ -1,0 +1,139 @@
+html {
+	height: 100%;
+}
+
+body {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	min-width: 800px;
+	background-color: #c5c5c5;
+	font-family: Arial, Tahoma,  sans-serif;
+}
+
+#content {
+	width: 100%;
+	overflow: auto;
+	height: 100%;
+	min-width: 800px;
+}
+
+#user-pane {
+	background-color: #ffffff;
+	float: left;
+	width: 250px;
+	height: 100%;
+	min-width: 150px;
+}
+
+#user-list {
+	width: 240px;
+	float: left;
+	height: 100%;
+	overflow-y: scroll;
+	cursor: default;
+}
+#user-list ul {
+	margin: 0;
+	padding: 0;
+}
+
+#user-list span:hover {
+	background-color: #e6e6e6;
+}
+
+#user-item {
+	display: none;
+}
+
+/* USER STATUSES LIST */
+
+.online {
+	background: url(../img/online.png) no-repeat 0 0px; 
+    padding-left: 20px;
+}
+
+.busy {
+	background: url(../img/busy.png) no-repeat 0 0px; 
+    padding-left: 20px;
+}
+
+.away {
+	background: url(../img/away.png) no-repeat 0 0px; 
+    padding-left: 20px;
+}
+
+.offline {
+	background: url(../img/offline.png) no-repeat 0 0px; 
+    padding-left: 20px;
+}
+
+/* END OF USER STATUSES LIST  */
+
+
+#split-pane {
+	float: left;
+	background-color: #2b2b2b;
+	width: 10px;
+	height: 100%;
+	cursor: col-resize;
+}
+
+#chat-pane {
+	background-color: #ffffff;
+	height: 100%;
+}
+
+#history {
+	height: 80%;
+	background-color: #cccccc;
+	overflow-y: scroll;
+	min-width: 400px;
+}
+
+#message-item-template {
+	display: none;
+}
+
+.message-item {
+	background: #ffffff;
+	border-top: solid 2px #2b2b2b;
+}
+
+.info {
+	font-weight: bolder;
+}
+
+.date {
+
+}
+
+.from-me {
+	color: #797979;
+}
+
+.from-other {
+	color: #0078CA;
+}
+
+.message-text {
+	padding: 10px 20px 10px;
+}
+
+
+#message {
+	height: 20%;
+	margin: 0 auto;
+	background-color: #cccccc;
+}
+
+#send-message {
+	text-align: center;
+}
+
+textarea {
+	outline: none;
+	resize: none;
+	overflow: auto;
+	font-family: Arial, Tahoma,  sans-serif;
+}

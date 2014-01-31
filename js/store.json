@@ -1,0 +1,304 @@
+{
+    "users": [
+        {
+            "userId": 1,
+            "userName": "Vasyl Melnychuk",
+            "userStatus": "online"
+        },
+        {
+            "userId": 2,
+            "userName": "Sergei Doroshenko",
+            "userStatus": "away"
+        },
+        {
+            "userId": 3,
+            "userName": "Dzianis Smolski",
+            "userStatus": "busy"
+        },
+        {
+            "userId": 4,
+            "userName": "Maksim Shurpo",
+            "userStatus": "offline"
+        },
+        {
+            "userId": 5,
+            "userName": "Hleb Kastseika",
+            "userStatus": "online"
+        },
+        {
+            "userId": 6,
+            "userName": "Artur Kharasau",
+            "userStatus": "busy"
+        }
+    ],
+    "conversations": [
+        {
+            "userId": 1,
+            "conversation": [
+                {
+                    "from": "me",
+                    "timestamp": 1388348441735,
+                    "message": "Hello, how are you?"
+                },
+                {
+                    "from": "other",
+                    "timestamp": 1388350441735,
+                    "message": "hi, I am fine"
+                },
+                {
+                    "from": "me",
+                    "timestamp": 1388360441735,
+                    "message": "i am testing my chat app now"
+                },
+                {
+                    "from": "other",
+                    "timestamp": 1388363441735,
+                    "message": "ok, try to type more messages"
+                }
+            ]
+        },
+        {
+            "userId": 2,
+            "conversation": [
+                {
+                    "from": "me",
+                    "timestamp": 1388348441735,
+                    "message": "i am test message, please send me to others"
+                },
+                {
+                    "from": "other",
+                    "timestamp": 1388348441999,
+                    "message": "ok, no promlem"
+                }
+            ]
+        },
+        {
+            "userId": 3,
+            "conversation": [
+                {
+                    "from": "me",
+                    "timestamp": 1388338441735,
+                    "message": "Hello, how are you?"
+                },
+                {
+                    "from": "other",
+                    "timestamp": 1388333441735,
+                    "message": "hi, I am fine. send me long message"
+                },
+                {
+                    "from": "me",
+                    "timestamp": 1388333441735,
+                     "message": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus",
+                        "lacinia odio et blandit. Curabitur egestas urna sit amet est gravida",
+                        "mattis. Donec tristique mi vel gravida porta. Nulla at suscipit",
+                        "sapien. Maecenas enim justo, pulvinar sit amet molestie et, cursus sed",
+                        "justo. Donec semper id augue at placerat. Integer pellentesque tortor",
+                        "ac justo tristique pellentesque. Cras in bibendum justo. Sed ac",
+                        "euismod leo. Phasellus vitae feugiat arcu. Cras sed mollis tellus.",
+                        "Duis faucibus diam id purus volutpat dignissim. Curabitur ultrices",
+                        "faucibus ultrices. In lorem mi, vestibulum ac imperdiet sed, porttitor",
+                        "in velit. Curabitur vitae felis et mauris tempor sagittis. Donec eget",
+                        "nulla sapien."
+                    ]
+                },
+                {
+                    "from": "other",
+                    "timestamp": 1388333441735,
+                    "message": "ok"
+                }
+            ]
+        },
+        {
+            "userId": 4,
+            "conversation": [
+                {
+                    "from": "me",
+                    "timestamp": 1388348441735,
+                    "message": "Hello, how are you?"
+                },
+                {
+                    "from": "other",
+                    "timestamp": 1388348441999,
+                    "message": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus",
+                        "lacinia odio et blandit. Curabitur egestas urna sit amet est gravida",
+                        "mattis. Donec tristique mi vel gravida porta. Nulla at suscipit",
+                        "sapien. Maecenas enim justo, pulvinar sit amet molestie et, cursus sed",
+                        "justo. Donec semper id augue at placerat. Integer pellentesque tortor",
+                        "ac justo tristique pellentesque. Cras in bibendum justo. Sed ac",
+                        "euismod leo. Phasellus vitae feugiat arcu. Cras sed mollis tellus.",
+                        "Duis faucibus diam id purus volutpat dignissim. Curabitur ultrices",
+                        "faucibus ultrices. In lorem mi, vestibulum ac imperdiet sed, porttitor",
+                        "in velit. Curabitur vitae felis et mauris tempor sagittis. Donec eget",
+                        "nulla sapien."
+                    ]
+                }
+            ]
+        },
+        {
+            "userId": 5,
+            "conversation": [
+                {
+                    "from": "me",
+                    "timestamp": 1388348441735,
+                    "message": "Hello, how are you?"
+                },
+                {
+                    "from": "other",
+                    "timestamp": 1388348441999,
+                     "message": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus",
+                        "lacinia odio et blandit. Curabitur egestas urna sit amet est gravida",
+                        "mattis. Donec tristique mi vel gravida porta. Nulla at suscipit",
+                        "sapien. Maecenas enim justo, pulvinar sit amet molestie et, cursus sed",
+                        "justo. Donec semper id augue at placerat. Integer pellentesque tortor",
+                        "ac justo tristique pellentesque. Cras in bibendum justo. Sed ac",
+                        "euismod leo. Phasellus vitae feugiat arcu. Cras sed mollis tellus.",
+                        "Duis faucibus diam id purus volutpat dignissim. Curabitur ultrices",
+                        "faucibus ultrices. In lorem mi, vestibulum ac imperdiet sed, porttitor",
+                        "in velit. Curabitur vitae felis et mauris tempor sagittis. Donec eget",
+                        "nulla sapien."
+                    ]
+                },
+                {
+                    "from": "me",
+                    "timestamp": 1388348441735,
+                    "message": "Hello, how are you?"
+                },
+                {
+                    "from": "other",
+                    "timestamp": 1388348441999,
+                     "message": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus",
+                        "lacinia odio et blandit. Curabitur egestas urna sit amet est gravida",
+                        "mattis. Donec tristique mi vel gravida porta. Nulla at suscipit",
+                        "sapien. Maecenas enim justo, pulvinar sit amet molestie et, cursus sed",
+                        "justo. Donec semper id augue at placerat. Integer pellentesque tortor",
+                        "ac justo tristique pellentesque. Cras in bibendum justo. Sed ac",
+                        "euismod leo. Phasellus vitae feugiat arcu. Cras sed mollis tellus.",
+                        "Duis faucibus diam id purus volutpat dignissim. Curabitur ultrices",
+                        "faucibus ultrices. In lorem mi, vestibulum ac imperdiet sed, porttitor",
+                        "in velit. Curabitur vitae felis et mauris tempor sagittis. Donec eget",
+                        "nulla sapien."
+                    ]
+                },
+                {
+                    "from": "me",
+                    "timestamp": 1388348441735,
+                    "message": "Hello, how are you?"
+                },
+                {
+                    "from": "other",
+                    "timestamp": 1388348441999,
+                     "message": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus",
+                        "lacinia odio et blandit. Curabitur egestas urna sit amet est gravida",
+                        "mattis. Donec tristique mi vel gravida porta. Nulla at suscipit",
+                        "sapien. Maecenas enim justo, pulvinar sit amet molestie et, cursus sed",
+                        "justo. Donec semper id augue at placerat. Integer pellentesque tortor",
+                        "ac justo tristique pellentesque. Cras in bibendum justo. Sed ac",
+                        "euismod leo. Phasellus vitae feugiat arcu. Cras sed mollis tellus.",
+                        "Duis faucibus diam id purus volutpat dignissim. Curabitur ultrices",
+                        "faucibus ultrices. In lorem mi, vestibulum ac imperdiet sed, porttitor",
+                        "in velit. Curabitur vitae felis et mauris tempor sagittis. Donec eget",
+                        "nulla sapien."
+                    ]
+                },
+                {
+                    "from": "me",
+                    "timestamp": 1388348441735,
+                    "message": "Hello, how are you?"
+                },
+                {
+                    "from": "other",
+                    "timestamp": 1388348441999,
+                     "message": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus",
+                        "lacinia odio et blandit. Curabitur egestas urna sit amet est gravida",
+                        "mattis. Donec tristique mi vel gravida porta. Nulla at suscipit",
+                        "sapien. Maecenas enim justo, pulvinar sit amet molestie et, cursus sed",
+                        "justo. Donec semper id augue at placerat. Integer pellentesque tortor",
+                        "ac justo tristique pellentesque. Cras in bibendum justo. Sed ac",
+                        "euismod leo. Phasellus vitae feugiat arcu. Cras sed mollis tellus.",
+                        "Duis faucibus diam id purus volutpat dignissim. Curabitur ultrices",
+                        "faucibus ultrices. In lorem mi, vestibulum ac imperdiet sed, porttitor",
+                        "in velit. Curabitur vitae felis et mauris tempor sagittis. Donec eget",
+                        "nulla sapien."
+                    ]
+                },
+                {
+                    "from": "me",
+                    "timestamp": 1388348441735,
+                    "message": "Hello, how are you?"
+                },
+                {
+                    "from": "other",
+                    "timestamp": 1388348441999,
+                     "message": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus",
+                        "lacinia odio et blandit. Curabitur egestas urna sit amet est gravida",
+                        "mattis. Donec tristique mi vel gravida porta. Nulla at suscipit",
+                        "sapien. Maecenas enim justo, pulvinar sit amet molestie et, cursus sed",
+                        "justo. Donec semper id augue at placerat. Integer pellentesque tortor",
+                        "ac justo tristique pellentesque. Cras in bibendum justo. Sed ac",
+                        "euismod leo. Phasellus vitae feugiat arcu. Cras sed mollis tellus.",
+                        "Duis faucibus diam id purus volutpat dignissim. Curabitur ultrices",
+                        "faucibus ultrices. In lorem mi, vestibulum ac imperdiet sed, porttitor",
+                        "in velit. Curabitur vitae felis et mauris tempor sagittis. Donec eget",
+                        "nulla sapien."
+                    ]
+                },
+                {
+                    "from": "me",
+                    "timestamp": 1388348441735,
+                    "message": "Hello, how are you?"
+                },
+                {
+                    "from": "other",
+                    "timestamp": 1388348441999,
+                     "message": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus",
+                        "lacinia odio et blandit. Curabitur egestas urna sit amet est gravida",
+                        "mattis. Donec tristique mi vel gravida porta. Nulla at suscipit",
+                        "sapien. Maecenas enim justo, pulvinar sit amet molestie et, cursus sed",
+                        "justo. Donec semper id augue at placerat. Integer pellentesque tortor",
+                        "ac justo tristique pellentesque. Cras in bibendum justo. Sed ac",
+                        "euismod leo. Phasellus vitae feugiat arcu. Cras sed mollis tellus.",
+                        "Duis faucibus diam id purus volutpat dignissim. Curabitur ultrices",
+                        "faucibus ultrices. In lorem mi, vestibulum ac imperdiet sed, porttitor",
+                        "in velit. Curabitur vitae felis et mauris tempor sagittis. Donec eget",
+                        "nulla sapien."
+                    ]
+                }
+            ]
+        },
+        {
+            "userId": 6,
+            "conversation": [
+                {
+                    "from": "me",
+                    "timestamp": 1388348441735,
+                    "message": "Hello, how are you?"
+                },
+                {
+                    "from": "other",
+                    "timestamp": 1388348441999,
+                     "message": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus",
+                        "lacinia odio et blandit. Curabitur egestas urna sit amet est gravida",
+                        "mattis. Donec tristique mi vel gravida porta. Nulla at suscipit",
+                        "sapien. Maecenas enim justo, pulvinar sit amet molestie et, cursus sed",
+                        "justo. Donec semper id augue at placerat. Integer pellentesque tortor",
+                        "ac justo tristique pellentesque. Cras in bibendum justo. Sed ac",
+                        "euismod leo. Phasellus vitae feugiat arcu. Cras sed mollis tellus.",
+                        "Duis faucibus diam id purus volutpat dignissim. Curabitur ultrices",
+                        "faucibus ultrices. In lorem mi, vestibulum ac imperdiet sed, porttitor",
+                        "in velit. Curabitur vitae felis et mauris tempor sagittis. Donec eget",
+                        "nulla sapien."
+                    ]
+                }
+            ]
+        }
+    ]
+}
